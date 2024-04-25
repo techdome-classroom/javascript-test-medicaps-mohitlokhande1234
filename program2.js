@@ -7,6 +7,7 @@ function smallestMissingPositiveInteger(nums) {
         if (nums[i] < 0) nums[i] += value;
     }
 }
+  
 
 // Make an array for storing the frequencies of remainders
 const a = Array(100001).fill(0);
